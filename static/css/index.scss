@@ -3,6 +3,7 @@
 // Colors
 $michiganMaize: #FFCB05;
 $michiganBlue: #00274C;
+$darkGray: #383838;
 
 body {
   font-family: "Lato", sans-serif;
@@ -27,6 +28,7 @@ ul.sidenav {
   width: 190px;
   position: fixed;
   background-color: $michiganBlue;
+  box-shadow: 0 0 10px 2px $michiganMaize;
   overflow-x: hidden;
   padding: 0;
   li {
@@ -68,5 +70,57 @@ ul.sidenav {
       text-decoration: none;
       color: $michiganBlue;
     }
+  }
+}
+
+.experience {
+  padding: 80px 10px 80px 10px;
+  background-color: $michiganBlue;
+}
+
+.experienceCard {
+  margin: auto;
+  box-shadow: 0 5px 10px 3px $michiganMaize;
+  padding: 16px 16px 16px 16px;
+  background-color: white;
+  color: $michiganBlue;
+  width: 70%;
+  overflow: hidden;
+  h1 {
+    font-family: "Varela Round"; font-style: normal; font-variant: normal;
+  }
+  h1.companyFont {
+    font-size: 28px; font-weight: bold;
+    margin: 0 0 -2px 0;
+  }
+  h1.locationFont {
+    font-size: 16px; font-weight: normal;
+    margin: 0 0 0 0;
+  }
+  h1.positionFont {
+    font-size: 20px; font-weight: bold;
+    margin: 12px 0 0 0;
+  }
+  h1.durationFont {
+    font-size: 14px; font-weight: lighter;
+    margin: 0 0 0 0;
+  }
+  p {
+    font-family: "Varela Round"; font-style: normal; font-variant: normal;
+    font-size: 16px; font-weight: normal;
+    line-height: 16px;
+    margin: 20px 0 10px 0;
+  }
+  .borderBottom {
+    border-bottom: 3px solid $michiganMaize;
+    width: 90%;
+  }
+  .experienceLeft {
+    width: 45%;
+    float: left;
+  }
+  .experienceRight {
+    width: 50%;
+    float: left;
   }
 }

@@ -22,6 +22,8 @@ ul.sidenav {
   width: 190px;
   position: fixed;
   background-color: #00274C;
+  -webkit-box-shadow: 0 0 10px 2px #FFCB05;
+          box-shadow: 0 0 10px 2px #FFCB05;
   overflow-x: hidden;
   padding: 0;
 }
@@ -70,5 +72,76 @@ ul.sidenav li.logo a span {
 ul.sidenav li.logo a:hover {
   text-decoration: none;
   color: #00274C;
+}
+
+.experience {
+  padding: 80px 10px 80px 10px;
+  background-color: #00274C;
+}
+
+.experienceCard {
+  margin: auto;
+  -webkit-box-shadow: 0 5px 10px 3px #FFCB05;
+          box-shadow: 0 5px 10px 3px #FFCB05;
+  padding: 16px 16px 16px 16px;
+  background-color: white;
+  color: #00274C;
+  width: 70%;
+  overflow: hidden;
+}
+
+.experienceCard h1 {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-variant: normal;
+}
+
+.experienceCard h1.companyFont {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 -2px 0;
+}
+
+.experienceCard h1.locationFont {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 0 0;
+}
+
+.experienceCard h1.positionFont {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 12px 0 0 0;
+}
+
+.experienceCard h1.durationFont {
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 0 0 0 0;
+}
+
+.experienceCard p {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-variant: normal;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 16px;
+  margin: 20px 0 10px 0;
+}
+
+.experienceCard .borderBottom {
+  border-bottom: 3px solid #FFCB05;
+  width: 90%;
+}
+
+.experienceCard .experienceLeft {
+  width: 45%;
+  float: left;
+}
+
+.experienceCard .experienceRight {
+  width: 50%;
+  float: left;
 }
 /*# sourceMappingURL=index.css.map */
