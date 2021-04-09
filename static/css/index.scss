@@ -39,6 +39,10 @@ ul.sidenav {
     display: block;
     line-height: 100%;
     padding: 10px 30px 12px;
+    active-sidebar {
+      background-color: $michiganMaize;
+      color: $michiganBlue;
+    }
   }
   li.bold {
     a:hover {
