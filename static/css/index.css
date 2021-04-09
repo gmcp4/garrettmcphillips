@@ -32,11 +32,7 @@ ul.sidenav li {
 }
 
 ul.sidenav a {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  background-color: #00274C;
   display: block;
-  line-height: 100%;
   padding: 10px 30px 12px;
 }
 
@@ -46,10 +42,13 @@ ul.sidenav li.bold a:hover {
   background-color: #FFCB05;
 }
 
+ul.sidenav li.bold a.active-sidebar {
+  background-color: #FFCB05;
+  color: #00274C;
+}
+
 ul.sidenav li.logo {
   background-color: #FFCB05;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
   min-height: 90px;
   padding: 24px 0 25px;
   border-bottom: 1px solid #00274C;

@@ -34,15 +34,8 @@ ul.sidenav {
     text-decoration: none;
   }
   a {
-    box-sizing: content-box;
-    background-color: $michiganBlue;
     display: block;
-    line-height: 100%;
     padding: 10px 30px 12px;
-    active-sidebar {
-      background-color: $michiganMaize;
-      color: $michiganBlue;
-    }
   }
   li.bold {
     a:hover {
@@ -50,10 +43,13 @@ ul.sidenav {
       color: $michiganBlue; 
       background-color: $michiganMaize;
     }
+    a.active-sidebar {
+      background-color: $michiganMaize;
+      color: $michiganBlue;
+    }
   }
   li.logo {
     background-color: $michiganMaize;
-    box-sizing: content-box;
     min-height: 90px;
     padding: 24px 0 25px;
     border-bottom: 1px solid $michiganBlue;
